@@ -1,0 +1,11 @@
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/bin/Debug/net10.0/Configurator.Core.deps.json
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/bin/Debug/net10.0/Configurator.Core.dll
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/bin/Debug/net10.0/Configurator.Core.pdb
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.AssemblyInfoInputs.cache
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.AssemblyInfo.cs
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.csproj.CoreCompileInputs.cache
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.dll
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/refint/Configurator.Core.dll
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.pdb
+/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/ref/Configurator.Core.dll
