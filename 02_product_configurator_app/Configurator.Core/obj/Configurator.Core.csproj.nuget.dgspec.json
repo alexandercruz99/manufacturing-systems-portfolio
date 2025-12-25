@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj": {}
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj": {}
   },
   "projects": {
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj": {
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj",
         "projectName": "Configurator.Core",
-        "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj",
-        "packagesPath": "/Users/alexcruz/.nuget/packages/",
-        "outputPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/",
+        "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj",
+        "packagesPath": "C:\\Users\\Alexw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexcruz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alexw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

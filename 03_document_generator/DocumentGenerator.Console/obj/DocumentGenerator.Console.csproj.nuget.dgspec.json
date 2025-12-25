@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Console/DocumentGenerator.Console.csproj": {}
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Console\\DocumentGenerator.Console.csproj": {}
   },
   "projects": {
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj": {
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj",
         "projectName": "Configurator.Core",
-        "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj",
-        "packagesPath": "/Users/alexcruz/.nuget/packages/",
-        "outputPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/",
+        "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj",
+        "packagesPath": "C:\\Users\\Alexw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexcruz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alexw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -337,17 +337,17 @@
         }
       }
     },
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Console/DocumentGenerator.Console.csproj": {
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Console\\DocumentGenerator.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Console/DocumentGenerator.Console.csproj",
+        "projectUniqueName": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Console\\DocumentGenerator.Console.csproj",
         "projectName": "DocumentGenerator.Console",
-        "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Console/DocumentGenerator.Console.csproj",
-        "packagesPath": "/Users/alexcruz/.nuget/packages/",
-        "outputPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Console/obj/",
+        "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Console\\DocumentGenerator.Console.csproj",
+        "packagesPath": "C:\\Users\\Alexw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexcruz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alexw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -359,11 +359,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj": {
-                "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj"
+              "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj": {
+                "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj"
               },
-              "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/DocumentGenerator.Core.csproj": {
-                "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/DocumentGenerator.Core.csproj"
+              "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\DocumentGenerator.Core.csproj": {
+                "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\DocumentGenerator.Core.csproj"
               }
             }
           }
@@ -399,7 +399,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -677,17 +677,17 @@
         }
       }
     },
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/DocumentGenerator.Core.csproj": {
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\DocumentGenerator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/DocumentGenerator.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\DocumentGenerator.Core.csproj",
         "projectName": "DocumentGenerator.Core",
-        "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/DocumentGenerator.Core.csproj",
-        "packagesPath": "/Users/alexcruz/.nuget/packages/",
-        "outputPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/obj/",
+        "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\DocumentGenerator.Core.csproj",
+        "packagesPath": "C:\\Users\\Alexw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexcruz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alexw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -699,8 +699,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj": {
-                "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj"
+              "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj": {
+                "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj"
               }
             }
           }
@@ -742,7 +742,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MockErp.API.Models;
 
@@ -16,7 +17,16 @@ public class ErpController : ControllerBase
         _logger = logger;
     }
 
+    /// <summary>
+    /// Creates a new order in the ERP system
+    /// </summary>
+    /// <param name="request">The order request containing order details, items, and pricing information</param>
+    /// <returns>An accepted response with the ERP order ID</returns>
+    /// <response code="202">Order was successfully accepted</response>
+    /// <response code="400">Invalid request data or validation failed</response>
     [HttpPost("orders")]
+    [ProducesResponseType(typeof(object), StatusCodes.Status202Accepted)]
+    [ProducesResponseType(typeof(object), StatusCodes.Status400BadRequest)]
     public IActionResult CreateOrder([FromBody] ErpOrderRequest request)
     {
         if (request == null)
@@ -47,6 +57,19 @@ public class ErpController : ControllerBase
             validationErrors.Add("Items list cannot be empty.");
         }
 
+        // Validate that totalPrice matches expectedExtendedPrice if provided
+        if (request.ExpectedExtendedPrice.HasValue)
+        {
+            var priceDifference = Math.Abs(request.TotalPrice - request.ExpectedExtendedPrice.Value);
+            // Allow for small rounding differences (up to 0.01)
+            if (priceDifference > 0.01m)
+            {
+                validationErrors.Add(
+                    $"Total price ({request.TotalPrice:F2}) does not match expected extended price from configuration ({request.ExpectedExtendedPrice.Value:F2}). " +
+                    $"Difference: {priceDifference:F2}. Please ensure totalPrice matches the extendedPrice from the Configurator API result.");
+            }
+        }
+
         if (validationErrors.Count > 0)
         {
             _logger.LogWarning("Order validation failed for OrderId: {OrderId}. Errors: {Errors}",
@@ -59,11 +82,12 @@ public class ErpController : ControllerBase
         var erpOrderId = $"ERP-{Guid.NewGuid():N}".ToUpperInvariant()[..16];
 
         _logger.LogInformation(
-            "Order accepted. OrderId: {OrderId}, ConfigurationId: {ConfigurationId}, ErpOrderId: {ErpOrderId}, TotalPrice: {TotalPrice}, RequestedShipDate: {RequestedShipDate}",
+            "Order accepted. OrderId: {OrderId}, ConfigurationId: {ConfigurationId}, ErpOrderId: {ErpOrderId}, TotalPrice: {TotalPrice}, ExpectedExtendedPrice: {ExpectedExtendedPrice}, RequestedShipDate: {RequestedShipDate}",
             request.OrderId,
             request.ConfigurationId,
             erpOrderId,
             request.TotalPrice,
+            request.ExpectedExtendedPrice,
             request.RequestedShipDate);
 
         return Accepted(new { status = "accepted", erpOrderId = erpOrderId });

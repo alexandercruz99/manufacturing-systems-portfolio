@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/04_mock_erp_integration/MockErp.API/MockErp.API.csproj": {}
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\04_mock_erp_integration\\MockErp.API\\MockErp.API.csproj": {}
   },
   "projects": {
-    "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/04_mock_erp_integration/MockErp.API/MockErp.API.csproj": {
+    "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\04_mock_erp_integration\\MockErp.API\\MockErp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/04_mock_erp_integration/MockErp.API/MockErp.API.csproj",
+        "projectUniqueName": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\04_mock_erp_integration\\MockErp.API\\MockErp.API.csproj",
         "projectName": "MockErp.API",
-        "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/04_mock_erp_integration/MockErp.API/MockErp.API.csproj",
-        "packagesPath": "/Users/alexcruz/.nuget/packages/",
-        "outputPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/04_mock_erp_integration/MockErp.API/obj/",
+        "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\04_mock_erp_integration\\MockErp.API\\MockErp.API.csproj",
+        "packagesPath": "C:\\Users\\Alexw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\04_mock_erp_integration\\MockErp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexcruz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alexw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

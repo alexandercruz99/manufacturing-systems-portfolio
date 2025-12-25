@@ -1,16 +1,27 @@
 # Manufacturing Systems Portfolio
 
-A portfolio project demonstrating capability for manufacturing business-systems roles, featuring a product configurator, document generation, mock ERP integration, and comprehensive documentation.
+A portfolio project demonstrating **Application Analyst** and **Production Support** capabilities through real-world failure diagnosis, request validation, API debugging, and production deployment.
+
+**Key Demonstration:** [Application Failure Analysis PDF](Alexander_Cruz_Application_Failure_Analysis.pdf) - Single-page evidence of debugging and fixing JSON enum deserialization failures in production API.
 
 ## What This Portfolio Demonstrates
 
-This repository showcases:
+### Application Failure Analysis
+- **Fixed JSON enum deserialization failures** causing 400 errors in production
+- **Root cause analysis** of case-sensitive enum parsing
+- **Implemented case-insensitive enum converter** with verification
+- **Evidence:** See `Alexander_Cruz_Application_Failure_Analysis.pdf`
 
-1. **Product Configurator**: RESTful API for configuring and pricing manufacturing products (Coils, Fan Coils, Unit Heaters) with deterministic configuration IDs, validation, and quantity-based pricing
-2. **Document Generation**: PDF generation for sales sheets and plant manufacturing instructions using QuestPDF
-3. **Mock ERP Integration**: Order submission API with validation and ERP order ID generation
-4. **Clean Architecture**: C# .NET 8.0 with separation of concerns (Core, API layers)
-5. **System Documentation**: Legacy analysis, user guides, maintenance protocols, and future state architecture
+### Request Validation & Error Handling
+1. **Product Configurator API**: Request validation, 400 error handling, enum deserialization fixes
+2. **Mock ERP Integration**: Order validation, integration testing, deployment patterns
+3. **Document Generator**: Production PDF generation with error handling
+
+### Production Support Skills
+- Logging and error tracking
+- API debugging and troubleshooting
+- Request validation and error messages
+- Deployment and configuration management
 
 ## Technology Stack
 

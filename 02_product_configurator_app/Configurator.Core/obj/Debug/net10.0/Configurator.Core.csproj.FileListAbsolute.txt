@@ -10,3 +10,15 @@
 /Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.pdb
 /Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/ref/Configurator.Core.dll
 /Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/obj/Debug/net10.0/Configurator.Core.sourcelink.json
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\bin\Debug\net10.0\Configurator.Core.deps.json
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\bin\Debug\net10.0\Configurator.Core.dll
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\bin\Debug\net10.0\Configurator.Core.pdb
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.AssemblyInfoInputs.cache
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.AssemblyInfo.cs
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.csproj.CoreCompileInputs.cache
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.sourcelink.json
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.dll
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\refint\Configurator.Core.dll
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\Configurator.Core.pdb
+C:\Users\Alexw\OneDrive\Desktop\Modine\02_product_configurator_app\Configurator.Core\obj\Debug\net10.0\ref\Configurator.Core.dll

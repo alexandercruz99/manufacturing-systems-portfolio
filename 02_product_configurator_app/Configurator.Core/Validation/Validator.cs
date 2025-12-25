@@ -1,3 +1,4 @@
+using Configurator.Core.Enums;
 using Configurator.Core.Models;
 
 namespace Configurator.Core.Validation;
@@ -8,6 +9,15 @@ public static class Validator
     private const decimal MaxDimension = 120.0m;
     private const int MinQuantity = 1;
     private const int MaxQuantity = 1000;
+
+    private static readonly HashSet<ConfigOption> ValidOptions = new()
+    {
+        ConfigOption.None,
+        ConfigOption.Coating,
+        ConfigOption.StainlessFasteners,
+        ConfigOption.HighEfficiencyFins,
+        ConfigOption.ExpressBuild
+    };
 
     public static (bool IsValid, List<string> Errors) Validate(ConfiguratorRequest request)
     {
@@ -36,6 +46,14 @@ public static class Validator
         if (request.Options == null || request.Options.Count == 0)
         {
             errors.Add("At least one option must be specified (use None if no options).");
+        }
+        else
+        {
+            var invalidOptions = request.Options.Where(o => !ValidOptions.Contains(o)).ToList();
+            if (invalidOptions.Any())
+            {
+                errors.Add($"Invalid option values: {string.Join(", ", invalidOptions)}. Valid options are: None, Coating, StainlessFasteners, HighEfficiencyFins, ExpressBuild");
+            }
         }
 
         return (errors.Count == 0, errors);

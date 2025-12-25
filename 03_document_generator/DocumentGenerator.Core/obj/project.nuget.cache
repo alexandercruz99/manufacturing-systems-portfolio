@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dpzAZoJjxrE=",
+  "dgSpecHash": "zdQtmXD05T4=",
   "success": true,
-  "projectFilePath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/03_document_generator/DocumentGenerator.Core/DocumentGenerator.Core.csproj",
+  "projectFilePath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\03_document_generator\\DocumentGenerator.Core\\DocumentGenerator.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/alexcruz/.nuget/packages/questpdf/2024.3.10/questpdf.2024.3.10.nupkg.sha512"
+    "C:\\Users\\Alexw\\.nuget\\packages\\questpdf\\2024.3.10\\questpdf.2024.3.10.nupkg.sha512"
   ],
   "logs": []
 }

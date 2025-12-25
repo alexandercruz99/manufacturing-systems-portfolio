@@ -160,14 +160,18 @@ POST /erp/orders
   ],
   "requestedShipDate": "2024-02-15T00:00:00Z",
   "routingFlags": ["ExpressBuild"],
-  "totalPrice": 12505.00
+  "totalPrice": 12505.00,
+  "expectedExtendedPrice": 12505.00
 }
 ```
+
+**Note:** The `expectedExtendedPrice` field is optional but recommended. If provided, the API will validate that `totalPrice` matches `expectedExtendedPrice` (allowing for small rounding differences up to $0.01). This ensures price consistency between the Configurator API result and the ERP order submission.
 
 **Validation:**
 - ConfigurationId format: CFG-xxxxxxxxxxxx (12 hex chars)
 - Items list not empty
 - Total price >= 0
+- If `expectedExtendedPrice` is provided, it must match `totalPrice` (within $0.01 tolerance for rounding)
 - Required fields present
 
 **Response:**
@@ -290,7 +294,8 @@ curl -X POST http://localhost:5002/erp/orders \
     ],
     "requestedShipDate": "2024-02-15T00:00:00Z",
     "routingFlags": ["ExpressBuild"],
-    "totalPrice": 12505.00
+    "totalPrice": 12505.00,
+    "expectedExtendedPrice": 12505.00
   }'
 
 # Response: {"status":"accepted","erpOrderId":"ERP-1234567890ABCD"}
@@ -299,7 +304,7 @@ curl -X POST http://localhost:5002/erp/orders \
 ## Business Rules
 
 1. **ConfigurationId Format**: Must match CFG-xxxxxxxxxxxx pattern
-2. **Price Validation**: Total price in order must match extended price from configuration
+2. **Price Validation**: If `expectedExtendedPrice` is provided, `totalPrice` must match it (within $0.01 tolerance). This ensures the order price matches the `extendedPrice` from the Configurator API result.
 3. **Item Consistency**: Items in order should match BOM from configuration
 4. **Routing Flags**: ExpressBuild flag set when ExpressBuild option selected
 5. **Ship Date**: Must be in the future

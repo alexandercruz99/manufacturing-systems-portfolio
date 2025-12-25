@@ -21,6 +21,13 @@ public class ErpOrderRequest
     [Required]
     [Range(0, double.MaxValue, ErrorMessage = "Total price must be greater than or equal to 0.")]
     public decimal TotalPrice { get; set; }
+
+    /// <summary>
+    /// The expected extended price from the Configurator API result.
+    /// This is used to validate that the totalPrice matches the configuration pricing.
+    /// </summary>
+    [Range(0, double.MaxValue, ErrorMessage = "Expected extended price must be greater than or equal to 0.")]
+    public decimal? ExpectedExtendedPrice { get; set; }
 }
 
 public class ErpOrderItem

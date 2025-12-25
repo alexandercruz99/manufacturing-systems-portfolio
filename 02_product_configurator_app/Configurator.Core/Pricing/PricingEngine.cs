@@ -55,7 +55,7 @@ public static class PricingEngine
 
         var optionAdder = request.Options
             .Where(o => o != ConfigOption.None)
-            .Sum(o => OptionAdders[o]);
+            .Sum(o => OptionAdders.TryGetValue(o, out var value) ? value : throw new ArgumentException($"Invalid option value: {o}. Valid options are: {string.Join(", ", OptionAdders.Keys)}"));
 
         unitPrice += optionAdder;
 

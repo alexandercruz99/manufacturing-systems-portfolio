@@ -453,19 +453,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/alexcruz/.nuget/packages/": {}
+    "C:\\Users\\Alexw\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.API/Configurator.API.csproj",
+      "projectUniqueName": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.API\\Configurator.API.csproj",
       "projectName": "Configurator.API",
-      "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.API/Configurator.API.csproj",
-      "packagesPath": "/Users/alexcruz/.nuget/packages/",
-      "outputPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.API/obj/",
+      "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.API\\Configurator.API.csproj",
+      "packagesPath": "C:\\Users\\Alexw\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alexcruz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Alexw\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -477,8 +477,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj": {
-              "projectPath": "/Users/alexcruz/Desktop/manufacturing-systems-portfolio/02_product_configurator_app/Configurator.Core/Configurator.Core.csproj"
+            "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj": {
+              "projectPath": "C:\\Users\\Alexw\\OneDrive\\Desktop\\Modine\\02_product_configurator_app\\Configurator.Core\\Configurator.Core.csproj"
             }
           }
         }
@@ -523,7 +523,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
